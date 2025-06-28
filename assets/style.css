@@ -733,6 +733,9 @@ body {
     height: 65px;
     align-items: center;
 }
+.contact .left .row.email {
+    filter: blur(3px);
+}
 .contact .left .row .info {
     margin-left: 25px;
 }
@@ -748,6 +751,37 @@ body {
     color: #b0aeac;
 }
 
+.contact .right .form-title::after {
+    content: "";
+    height: 4px;
+    width: 142px;
+    background: red;
+    display: flex;
+    position: absolute;
+    top: 34px;
+}
+.contact .right .form-subtitle {
+    color: white;
+    font-weight: bold;
+}
+.contact .right .form-subtitle .note {
+    color: red;
+}
+.contact .right form::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+}
+.contact .right form {
+    position: relative;
+    filter: blur(3px);
+    pointer-events: none;
+}
 .contact .right .info-fields {
     /* background: red; */
     display: flex;
