@@ -250,7 +250,7 @@ body {
    ---------------------------------------  */
 .home {
     display: flex;
-    background: url("../img/banner4.png") no-repeat center;
+    background: url("http://85.215.152.109/priv/7c676e15-e8c4-41d9-a28e-0eeb3c4d7dff/banner.png") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
